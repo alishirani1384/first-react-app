@@ -1,0 +1,11 @@
+{
+    "files.autoSave": "afterDelay",
+    "emmet.showSuggestionsAsSnippets": true,
+    "html-css-class-completion.enableEmmetSupport": true,
+    "emmet.includeLanguages": {
+        "javascript":"javascriptreact"
+    },
+    "emmet.preferences": {
+    
+    }
+}

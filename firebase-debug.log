@@ -1,0 +1,38 @@
+[debug] [2022-04-09T19:05:44.380Z] ----------------------------------------------------------------------
+[debug] [2022-04-09T19:05:44.382Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ali1384\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-04-09T19:05:44.382Z] CLI Version:   10.6.0
+[debug] [2022-04-09T19:05:44.382Z] Platform:      win32
+[debug] [2022-04-09T19:05:44.382Z] Node Version:  v16.14.0
+[debug] [2022-04-09T19:05:44.383Z] Time:          Sat Apr 09 2022 23:35:44 GMT+0430 (Iran Daylight Time)
+[debug] [2022-04-09T19:05:44.383Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-04-09T19:05:44.385Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-04-09T19:05:44.403Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-04-09T19:05:44.403Z] > authorizing via signed-in user (alishiraniii1384@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\ali1384\OneDrive\Desktop\netflix-clone
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-04-09T19:06:04.552Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-04-09T19:06:05.238Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 403
+[debug] [2022-04-09T19:06:05.238Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2022-04-09T19:06:05.238Z] Unable to parse JSON: SyntaxError: Unexpected token < in JSON at position 0
+[debug] [2022-04-09T19:06:05.758Z] FirebaseError: Unable to parse JSON: SyntaxError: Unexpected token < in JSON at position 0
+    at RetryOperation._fn (C:\Users\ali1384\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:258:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
